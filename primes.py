@@ -21,8 +21,8 @@ def list_primes(limit=10):
                 else: #if flag=true, i was not divisible by any j, i is prime, add it to the list
                     answer.append(i)
     return answer #returns list of primes
-                        
-
+                    
+#test
 def isitprime(a = 0):
     '''
     Checks if a number (a) is prime. Returns true if yes, false if no. Example: isitprime(2)-->True, isitprime(4)-->False
