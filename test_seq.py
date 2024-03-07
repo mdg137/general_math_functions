@@ -22,6 +22,16 @@ def test_factorial_generator():
     for i in range(2,11):
         assert next(generator)==math.factorial(i)
 
+def test_general_sequence():
+    initial_values=[0,1]
+    x=lambda a,b:a*b
+    general_generator=seq.general_sequence(initial_values,x)
+    for i in range(0,10):
+        a=next(general_generator)
+        b=next(general_generator)
+        assert next(general_generator)==x(a,b)
+        
+        
 
 
 
