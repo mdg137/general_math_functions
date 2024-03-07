@@ -1,0 +1,1 @@
+For now, this repo includes some basic sequence and prime number functions, born primarily out of trying to solve Project Euler problems. primes.py contains prime number related functions, and seq.py contains a set of generators for sequences of integers.
